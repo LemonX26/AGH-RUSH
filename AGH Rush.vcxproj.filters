@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{09c3f6be-1a81-46d4-a277-a88c49354c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{c5805866-cdb5-4f9e-9b1a-a3ac13e6a5ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\GameState">
+      <UniqueIdentifier>{f76afa56-8bf8-4104-b5cc-52dd1732d490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States\MainMenuState">
+      <UniqueIdentifier>{0697a36e-7259-4af1-8600-e4edeb204b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{fb78a7aa-26bb-4efc-9c0e-8832cf3902a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Button">
+      <UniqueIdentifier>{617fcd59-1c04-4b51-8abf-717608aac80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Enemy">
+      <UniqueIdentifier>{0cc0d097-a62a-43e2-b002-f53f742e2abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\TowerEntity">
+      <UniqueIdentifier>{f83d99f8-af7b-4cbc-8b47-a19df7d6657e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UseCases">
+      <UniqueIdentifier>{16305d4a-6961-4c34-8206-220c25dfcc52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\TowerSelector">
+      <UniqueIdentifier>{9e78cc7d-b128-4cf7-b8e8-1dd97412dc7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\TowerSelector\TowerSelectorElement">
+      <UniqueIdentifier>{9e46fd6b-19b1-42c8-bed4-2a4d82af4e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SetCords">
+      <UniqueIdentifier>{9027cbdc-40fc-4ed9-bdcd-edda0777e68c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\AdditionalAttack">
+      <UniqueIdentifier>{baf958e8-0afd-4296-bf7c-251d2fe491d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\LifeCounter">
+      <UniqueIdentifier>{955f8c9a-6b6a-4356-963b-688833ff8362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\SlowingAttack">
+      <UniqueIdentifier>{71dddb6d-b4c3-4f14-b5a4-b17fc82561ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\FrozenAttack">
+      <UniqueIdentifier>{d9bb5e02-b08a-43f8-8cc6-fea711f8d624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Waves">
+      <UniqueIdentifier>{9df68d86-dadf-46ad-903f-e92001f3871a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>States\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>States\MainMenuState</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Components\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyEntity.cpp">
+      <Filter>Entities\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerEntity.cpp">
+      <Filter>Entities\TowerEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignToCurrentPosition.cpp">
+      <Filter>UseCases</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerSelector.cpp">
+      <Filter>Components\TowerSelector</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerSelectorElement.cpp">
+      <Filter>Components\TowerSelector\TowerSelectorElement</Filter>
+    </ClCompile>
+    <ClCompile Include="SetCords.cpp">
+      <Filter>SetCords</Filter>
+    </ClCompile>
+    <ClCompile Include="AdditionalAttack.cpp">
+      <Filter>Entities\AdditionalAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeCounter.cpp">
+      <Filter>Components\LifeCounter</Filter>
+    </ClCompile>
+    <ClCompile Include="SlowingAttack.cpp">
+      <Filter>Entities\SlowingAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="FrozenAttack.cpp">
+      <Filter>Entities\FrozenAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="AdditionalAttackButton.cpp">
+      <Filter>Entities\AdditionalAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="FireAttackDamage.cpp">
+      <Filter>Entities\AdditionalAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="Waves.cpp">
+      <Filter>Entities\Waves</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>States\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>States\MainMenuState</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Components\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyEntity.h">
+      <Filter>Entities\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerEntity.h">
+      <Filter>Entities\TowerEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignToCurrentPosition.h">
+      <Filter>UseCases</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerSelector.h">
+      <Filter>Components\TowerSelector</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerSelectorElement.h">
+      <Filter>Components\TowerSelector\TowerSelectorElement</Filter>
+    </ClInclude>
+    <ClInclude Include="path.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SetCords.h">
+      <Filter>SetCords</Filter>
+    </ClInclude>
+    <ClInclude Include="AdditionalAttack.h">
+      <Filter>Entities\AdditionalAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeCounter.h">
+      <Filter>Components\LifeCounter</Filter>
+    </ClInclude>
+    <ClInclude Include="SlowingAttack.h">
+      <Filter>Entities\SlowingAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="FrozenAttack.h">
+      <Filter>Entities\FrozenAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="AdditionalAttackButton.h">
+      <Filter>Entities\AdditionalAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="FireAttackDamage.h">
+      <Filter>Entities\AdditionalAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="Waves.h">
+      <Filter>Entities\Waves</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
